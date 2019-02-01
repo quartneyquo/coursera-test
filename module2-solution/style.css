@@ -30,7 +30,6 @@ p {
 	background-color: gray;
 	height: 250px;
 	margin: 20px;
-	width: 30%;
 	margin-left: 20px;
 	position: relative;
 	left: 10px;
@@ -39,7 +38,6 @@ h2#chicken {
 	background-color: #FFFFE0;
 	border: 1px solid black;
 	border-width: 5px;
-	left: 15px;
 	text-align: center;
 	font-size: 16px;
 }
@@ -49,7 +47,6 @@ h2#beef {
 	float: right;
 	border: 1px solid black;
 	border-width: 5px;
-	left: 15px;
 	text-align: center;
 	font-size: 16px;
 }
@@ -59,7 +56,6 @@ h2#sushi {
 	float: right;
 	border: 1px solid black;
 	border-width: 5px;
-	left: 15px;
 	font-size: 16px;
 	text-align: center;
 }
