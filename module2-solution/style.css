@@ -1,7 +1,7 @@
 *{
 	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	font-family: sans-serif;
 }
 
@@ -28,7 +28,7 @@ p {
 .container {
 	border: 1px solid #000000;
 	background-color: gray;
-	height: 250px;
+	height: 150px;
 	margin: 20px;
 	margin-left: 20px;
 	position: relative;
