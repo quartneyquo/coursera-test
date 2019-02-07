@@ -1,14 +1,77 @@
-.navbar{
-  background-color: #add8e6;
+*{
+  box-sizing: border-box;
 }
 
+.navbar{
+  background-color: #add8e6;
+  height: 50px;
+}
+
+.navbar-brand{
+  float: left;
+  font: 20px;
+  position: absolute;
+  font-weight: bold;
+}
+
+.navbar-nav{
+  background-color: #add8e6;
+  text-align: center;
+  position: center;
+  list-style-type: none;
+}
+.container-fluid{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-items{
+  text-align: center;
+
+}
 
 header > h2{
   text-align: center;
   font-size: 25 px;
   font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-p{
+.container{
   border: 1px solid black;
   background: #FFFFE0;
+  padding: 2px;
+  height: 750px;
+  padding: 30px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  position: center;
+  position: relative;
+  margin-top: 50px;
+
+}
+
+h3{
+  font: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+span{
+  text-align: center;
+  list-style-type: none;
+}
+
+@media(min-width:768px){
+.visible-xs{
+  display:none;}
+  nav > button{
+    display: none;
+  }
+}
+}
+/* Edge fix */
+.dropdown-menu,
+.dropdown-menu ul {
+  list-style-type:none;
 }
